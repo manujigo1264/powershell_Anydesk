@@ -1,7 +1,7 @@
 # Set variables for the download and installation
 $anydeskUrl = "https://download.anydesk.com/AnyDesk.exe"
 $anydeskInstallerPath = "$env:TEMP\AnyDesk.exe"
-$discordWebhookUrl = "https://discord.com/api/webhooks/1273424715817549907/7JnmpE6OZRkY1DheZ03pFeh5OBnEsdRAKwEbDxiRIj4uvJkGUFSUdqp1IO23I8C8Yjrb"
+$discordWebhookUrl = "<web_hook>"
 
 # Download AnyDesk
 Invoke-WebRequest -Uri $anydeskUrl -OutFile $anydeskInstallerPath
